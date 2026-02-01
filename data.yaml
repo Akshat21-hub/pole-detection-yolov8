@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['bluep', 'redp', 'yellowp']
+
+roboflow:
+  workspace: test-txewq
+  project: poles-mwuof
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/test-txewq/poles-mwuof/dataset/1
